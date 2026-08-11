@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Library Management API",
+      "request": "launch",
+      "mainClass": "com.omermuktar.library.LibraryManagementApplication",
+      "projectName": "library-management-api"
+    }
+  ]
+}
