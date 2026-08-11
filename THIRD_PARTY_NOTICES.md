@@ -1,0 +1,35 @@
+# Üçüncü Taraf Bildirimleri
+
+## Eski Java Swing sürümü
+
+Bu deponun 2022 tarihli geçmişinde bulunan Java Swing/JDBC uygulaması, Akshat Agarwal tarafından
+yayımlanan MIT lisanslı
+[Library-Management](https://github.com/git-akshat/Library-Management) projesinin Türkçe arayüz
+uyarlamasını temel alır.
+
+Aşağıdaki lisans bildirimi yalnızca bu eski sürüm ve ondan alınan kısımlar için geçerlidir. Depo
+kökündeki güncel Spring Boot uygulamasının lisansı [LICENSE](LICENSE) dosyasında bulunur.
+
+```text
+MIT License
+
+Copyright (c) 2019 Akshat Agarwal
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```

@@ -1,0 +1,51 @@
+@baseUrl = http://localhost:8080/api/v1
+
+### Sağlık kontrolü
+GET http://localhost:8080/actuator/health
+
+### Kitapları listele
+GET {{baseUrl}}/books?page=0&size=20
+
+### Uygun kitapları ara
+GET {{baseUrl}}/books?query=spring&available=true
+
+### Yeni kitap oluştur
+POST {{baseUrl}}/books
+Content-Type: application/json
+
+{
+  "isbn": "9780134685991",
+  "title": "Effective Java",
+  "author": "Joshua Bloch",
+  "category": "Java",
+  "totalCopies": 3
+}
+
+### Yeni üye oluştur
+POST {{baseUrl}}/members
+Content-Type: application/json
+
+{
+  "membershipNumber": "MEM-003",
+  "fullName": "Ömer Şamil Muktar",
+  "email": "omer.samil@example.com"
+}
+
+### Kitabı ödünç ver (gerekirse kimlik değerlerini değiştir)
+POST {{baseUrl}}/loans
+Content-Type: application/json
+
+{
+  "bookId": 1,
+  "memberId": 1,
+  "loanDays": 14
+}
+
+### Kitabı iade al
+POST {{baseUrl}}/loans/1/return
+
+### Gecikmiş ödünç kayıtlarını listele
+GET {{baseUrl}}/loans/overdue
+
+### Genel durum özetini getir
+GET {{baseUrl}}/dashboard/summary
